@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Courses from './pages/Courses';
 import Reviews from './pages/Reviews';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -24,6 +25,10 @@ const App = () => {
 
       <div id='reviews'>
         <Reviews />
+      </div>
+
+      <div id='contact'>
+        <Contact />
       </div>
     </main>
   );
