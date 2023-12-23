@@ -5,6 +5,7 @@ import About from './pages/About';
 import Courses from './pages/Courses';
 import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -30,6 +31,8 @@ const App = () => {
       <div id='contact'>
         <Contact />
       </div>
+
+      <Footer />
     </main>
   );
 };
