@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Courses from './pages/Courses';
+import Reviews from './pages/Reviews';
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
 
       <div id='courses'>
         <Courses />
+      </div>
+
+      <div id='reviews'>
+        <Reviews />
       </div>
     </main>
   );
