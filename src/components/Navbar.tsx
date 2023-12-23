@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <div className='flex flex-row justify-between p-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+            <div className='w-full fixed top-0 flex flex-row justify-between p-5 md:px-32 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                 <div>
                     <Link to="/" className='font-semibold text-2xl p-1 cursor-pointer text-brightGreen'>eStudy</Link>
                 </div>
